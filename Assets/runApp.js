@@ -58,7 +58,7 @@ run()
 //     inquire.prompt(questions).then((answers) => {
 
 //         if (answers == 'circle')
-//         return GenerateShape.circle()
+//         return generateShape.circle()
 
 //             // fs.writeFile('./logo.svg', GenerateShape, (err) => {
 //             //     if  (err) {

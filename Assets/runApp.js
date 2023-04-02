@@ -34,7 +34,7 @@ function run() {
 
     inquire.prompt(questions).then((answers) => {
 
-            fs.writeFile('./logo.svg', generateShape(answers), (err) => {
+            fs.writeFile('../images/logo.svg', generateShape(answers), (err) => {
                 if  (err) {
                     console.error(err);
                 } else {

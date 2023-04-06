@@ -55,7 +55,7 @@ function run() {
     inquire.prompt(questions).then((answers) => {  
 // *** creates logo file with date timestamp ***
       const filename = `logo_${Date.now()}.svg`
-        fs.writeFile(`../Assets/logos/${filename}`, generateShape(answers), (err) => {
+        fs.writeFile(`../Logos/${filename}`, generateShape(answers), (err) => {
                 if  (err) {
                     console.error(err);
                 } else {

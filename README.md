@@ -48,11 +48,11 @@
   
       How to install
   
-      - Step 1: clone repo
+      - Step 1: clone repo (hit the green code button at the top of the page)
       
-      - Step 2: open to create.js file location in terminal  
+      - Step 2: open command line to dist folder in terminal should be dist/create.js  
       
-      - Step 3: type npm i or npm inquirer, npm fs 
+      - Step 3: type npm i or npm inquirer fs to install the required node packages
       
       
 
